@@ -1,5 +1,4 @@
-Write a script to generate "final.txt" file in which keywords like 'pr0', 'b00t', 'f1r3', 'p4r4' can vary.
-Your file must contain these keywords.
+There is a file named "final.txt".You have to create a new file named "final_1.txt" using a script replacing the characters keywords like 'pr0', 'b00t', 'f1r3', 'p4r4' of the original file.
 Shortest code will be considered as best.
 
 File size can vary from 1 MB to 10 MB.
