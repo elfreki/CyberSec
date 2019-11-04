@@ -1,5 +1,5 @@
-You are given a bash script named "welcome.sh".
-You have to create the same script in which content inside the flag format ACTF{''} should vary.
+You are given a file named "welcome.sh".
+You have to create a new file in which content inside the flag format ACTF{''} may vary.
 Write the steps to create the new "welcome.sh" file.
 Shortest code and steps will be considered as best.
 
