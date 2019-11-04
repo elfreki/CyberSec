@@ -10,5 +10,5 @@ def permute(a, l, r):             #function to permutate the given words
             permute(a, l+1, r)                 # recursion is being used 
             a[l], a[i] = a[i], a[l]            #swapping again to revert the changes
 strings=["pr0","n00b","f1r3","h4wk","fl4sh1r","r3b00t","p4r4","d0x"]            #array of strings which will be permutated 
-permute(strings, 0, 7)           #calling the function permute to begin the algorithm
+permute(strings, 0, 7)           #calling the function permute to begin the algorithm 
   
