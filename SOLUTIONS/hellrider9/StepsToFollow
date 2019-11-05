@@ -1,5 +1,5 @@
 STEPS TO RUN THE SCRIPT
-1:Download both run.sh and code.py in downloads folder of kali linux
-2:Modify the permission to give execute permission to run.sh and code.py
-3:run the run.sh file in terminal
+1:Download both save.sh and Task2.py in downloads folder of kali linux
+2:Modify the permission to give execute permission to save.sh and Task2.py
+3:run the save.sh file in terminal
 4:text.txt file will be created in the downloads folder which contains the output
