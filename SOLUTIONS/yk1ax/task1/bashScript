@@ -1,0 +1,26 @@
+1. sudo apt install crunch
+2. crunch 47 47 abcdefg -t "I am the flag : ACTF{@@@@@@}You are confused :)" -o welcome.sh
+
+/*
+A wordlist was to be created so a tool like crunch is used
+It's syntax is
+
+crunch minvalue maxvalue [characters whose permutations are formed] [additional flags for adding specific functionalities to the wordlist]
+
+here I used 't' and 'o' options
+'t' determines the pattern for the wordlist in which we enter the string in which the permutations are to be embedded and further four options are available
+@ , % ^ Here only @ is used which is for lowercase letters
+'o' specifies the output functionalities
+
+When I used 6 letters for permutation the size of the file created was 2.2mb while for 8 letters it was 12.6mb so I took 7 letters for which the size
+ of the file was 5.6mb as we need it to be between 4mb and 8mb
+
+There is an alternate solution for which we can also take more than 7 letters and still limit the size
+We will use another option 'b' in which we can specify the maximum size --> -b 7mb
+It will make two files first one with the specified size and the other one with the rest entries of the wordlist
+Here we have to use another option '-o START' after the 'b' option
+I wasn't able to store it directly into a file with the name welcome.sh so renaming the file, amongst the two files, with the desired size was needed
+The complete script would be :
+
+crunch 47 47 abcdefgsdfhdsf -t "I am the flag : ACTF{@@@@@@}You are confused :)" -b 7mb -o START
+*/
