@@ -1,0 +1,16 @@
+sed 's/b00t/boot/g;s/d0x/dox/g;s/fir3/fire/g;s/h4wk/hawk/g;s/n00b/noob/g;s/p4r4/para/g;s/pr0/pro/g;s/r3/re/g' file.txt > file_1.txt
+
+/*
+Here 'sed' command is used which stands for Stream EDitor and it is a tool which can be used for replacing text
+It's syntax is :
+sed '[operations]' file
+under '' we insert the operations
+'s/old/new/g'
+s --> it is for substitution
+old --> is the text that is to be replaced
+new --> is the text that old is to be replaced with
+g --> it stands for global so that all occurences of old are replaced with new
+and ; is used so that multiple suubstitution operations can be done in the same command
+Input file is specified after writing the operations
+At the end I wrote '> file_1.txt' so that the output of the command is stored in a file named file_1.txt
+*/
