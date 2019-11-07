@@ -5,6 +5,8 @@ Shortest code and steps will be considered as best.
 
 "welcome.sh" file must be considered as DEMO only.
 
+Your script should print the same thing given "welcome.sh" does.
+
 File size may vary from 4 to 8 MB.
 
 
