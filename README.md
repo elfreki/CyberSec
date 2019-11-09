@@ -9,10 +9,11 @@ For submissions fork the repo and make a folder by your username and submit by m
 |1| Task 1| C + W |
 |2| Task 2| C |
 |3| Task3 | C |
+|4| Task4 | W + S |
 
 Index |         |
 ------|---------|
  C    | Code | 
  W    | Writeup |
-
+ S    | Screenshot |
 
